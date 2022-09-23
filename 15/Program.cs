@@ -9,7 +9,7 @@ if(num == 6 || num == 7)
     Console.Write($"Число {num} выходной день");
 }
 // при вводе 1 - 6, печатаем, что день невыходной
-else if(num > 1 && num < 6)
+else if(num > 0 && num < 6)
 {
     Console.Write($"Число {num} невыходной день");
 }
